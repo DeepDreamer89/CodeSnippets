@@ -4,10 +4,15 @@ All you have todo is replace channels from 2 to 1 and bits_per_sample from 16 to
 The pins are connected as follow:
 
 common name | name on ESP32 | Name on SPH0645
+
 bck    = GPIO14 = BCLK 
+
 ws     = GPIO15 = LRCL
+
 data   = GPIO32 = DOUT
+
 ground = GND    = GND
+
 3v     = 3v3    = 3V
 
 Per default the webserver listens on port 80 so you can connect to it with e.g. VLC:
